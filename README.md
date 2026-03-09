@@ -1,18 +1,23 @@
 
 # **Orient reads from Genoscope data**
 
+[![HTTPS](https://img.shields.io/badge/https://-www.embl.org-9d161b?logo=hackthebox&logoColor=white)](https://www.embl.org)
+[![HTTPS](https://img.shields.io/badge/https://-biocean5d.org-941751?logo=hackthebox&logoColor=white)](https://biocean5d.org)
+![Static Badge](https://img.shields.io/badge/Code-R-8A2BE2)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 **This is a script to orient reads from Genoscope data (with R1 and R2 in both forwrd and reverse files)**
+
 
 ## **Repository structure:**
 
         orient_file_tool_AM
         ├── README.md
-        ├── rawdata
-        │   ├── SAMEA118106237_clean_R1.fastq.gz
-        │   ├── SAMEA118106237_clean_R2.fastq.gz
-        │   ├── SAMEA118106263_clean_R1.fastq.gz
-        │   └── SAMEA118106263_clean_R2.fastq.gz
+        ├── rawdata (Here put your rawdata)
+        │   ├── SAMEA118106237_clean_R1.fastq.gz (data test from Paleocore project)
+        │   ├── SAMEA118106237_clean_R2.fastq.gz (data test from Paleocore project)
+        │   ├── SAMEA118106263_clean_R1.fastq.gz (data test from Paleocore project)
+        │   └── SAMEA118106263_clean_R2.fastq.gz (data test from Paleocore project)
         └── script
             └── Orient_reads_parallel.sh
 
@@ -28,7 +33,9 @@
 Before launch, change the primer sequences and the output file in the Orient_reads_parallel.sh script!
 
 FWD="your_forward_primer_sequence"
+
 REV="your_reverse_primer_sequence"
+
 OUTPUT="your_output"
 
 ```
