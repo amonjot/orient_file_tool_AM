@@ -48,7 +48,7 @@ do
 bash script/Orient_reads_parallel.sh rawdata/${forward}
 done
 
-# After launching the job, you can remoive the temporary file
+# After launching the job, you can remove the temporary file
 rm -r temp/ 
 ```
 
