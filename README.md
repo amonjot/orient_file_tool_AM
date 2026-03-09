@@ -1,8 +1,6 @@
-###############################################################################
-##                                                           ##
-##           **Orient reads from Genoscope data**            ##
-##                                                           ##
-#####################################################
+
+# **Orient reads from Genoscope data**
+
 
 **This is a script to orient reads from Genoscope data (with R1 and R2 in both forwrd and reverse files)**
 
